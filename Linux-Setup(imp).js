@@ -23,7 +23,7 @@ EOF
 
 // step-4 for Ubuntu 
 
-@PS91104 ➜ /workspaces/lol (main) $ cat > docker-compose.yml <<EOF
+cat > docker-compose.yml <<EOF
 services:
   ubuntu-desktop:
     image: lscr.io/linuxserver/webtop:ubuntu-mate
